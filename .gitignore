@@ -1,0 +1,65 @@
+# ===== Secrets & environment =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+!kubernetes/secrets/.gitkeep
+
+# ===== Node / Next.js (frontend) =====
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.eslintcache
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# ===== Terraform =====
+.terraform/
+.terraform.lock.hcl.bak
+*.tfstate
+*.tfstate.*
+crash.log
+tfplan
+tfplan.json
+*.tfvars
+!*.tfvars.example
+!terraform/environments/*/terraform.tfvars.example
+
+# ===== Kubernetes =====
+kubeconfig
+kubeconfig.*
+*.kubeconfig
+
+# ===== Docker =====
+**/Dockerfile.local
+docker-compose.override.yml
+
+# ===== Reports / test artifacts =====
+reports/
+load-test/results/
+*.jtl
+*.log
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
