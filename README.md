@@ -191,5 +191,7 @@ specification.
 
 ## 11. License & disclaimer
 
+MIT — see [LICENSE](LICENSE).
+
 Concept/design project for evaluation. Not affiliated with, endorsed by, or
 connected to any government body. All data shown is simulated.
