@@ -106,7 +106,7 @@ exists here and none of the services it would start are implemented.
 
 The only configuration artifact is `.env.example`, which lists variable **names**
 with every value empty. A sibling repository,
-[`govflow-architecture-draft`](https://github.com/), contains a
+[`govflow-architecture-draft`](https://github.com/bilalkazii/govflow-architecture-draft), contains a
 `docker-compose.yml` for PostgreSQL and Redis; it is an earlier, shorter draft
 of this same design and its specification differs in several places.
 
